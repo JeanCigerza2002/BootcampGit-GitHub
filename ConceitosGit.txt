@@ -1,0 +1,24 @@
+## COMANDOS PARA LIDAR COM BRANCH'S ##
+
+O que é uma branch: Uma branch (ou "ramo", em português) é um conjunto isolado de alterações em um projeto
+dentro de um sistema de controle de versão, como o Git.
+
+- git branch: Mostra todas as branchs que eu criei e estou trabalhando no projeto ...
+
+- git branch nome_branch: Nessa parte do nome_branch eu substituo pelo nome da minha nova branch para criar minha funcionalidade, teste ou reparo...
+** Sempre que eu for criar uma branch nova, devo voltar para a Main e dar um git pull e cria-la,pois esse é o fluxo de processo normal **
+
+- git branch -d nome_branch: Esse código é para deletar branch mas geralmente não se faz um delete de branch.
+
+- git checkout nome_branch: Para mudar para a branch escolhida
+
+-git checkout -b nome_branch: Código para mudarmos e criarmos uma branch automaticamente
+ e este comando também é ultilizado para dispensar mudanças de um arquivo;
+
+-git merge: Para unir uma branch com a outra, commitar e git push.
+
+-git push: subir meus commits para o repositorio.
+
+
+
+
